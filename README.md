@@ -1,6 +1,19 @@
-# 轻录 QingLu
+<p align="center">
+  <img src="assets/qinglu-icon.png" alt="轻录 QingLu 应用图标" width="112" height="112">
+</p>
 
-一个简洁的 Windows 桌面录屏工具。圆角浮窗、电脑声音与麦克风独立控制，支持全屏、框选区域和指定窗口。
+<h1 align="center">轻录 QingLu</h1>
+
+<p align="center">
+  简洁、轻巧的 Windows 录屏工具。<br>
+  全屏 · 框选区域 · 指定窗口 · 电脑声音与麦克风独立控制
+</p>
+
+<p align="center">
+  <a href="#功能">功能介绍</a> ·
+  <a href="#运行">快速开始</a> ·
+  <a href="使用说明.md">使用说明</a>
+</p>
 
 ## 功能
 
