@@ -1,0 +1,15 @@
+.venv/
+vendor/
+__pycache__/
+*.py[cod]
+settings.json
+settings.pending
+verification/
+.录屏缓存_*/
+*.mp4
+*.mkv
+*.wav
+截图_*.png
+*.log
+build/
+dist/
