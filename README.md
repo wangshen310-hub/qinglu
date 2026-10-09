@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/wangshen310-hub/qinglu/archive/refs/heads/main.zip">下载安装包</a> ·
   <a href="#功能">功能介绍</a> ·
   <a href="#运行">快速开始</a> ·
   <a href="使用说明.md">使用说明</a>
@@ -27,6 +28,18 @@
 - 设置关闭按钮行为：**退出应用**（默认）或**隐藏到托盘**。隐藏不停止录制，双击托盘图标恢复；托盘右键始终提供退出入口。
 
 ## 运行
+
+### 双击安装（推荐）
+
+1. 点击上方 **下载安装包**（或 **Code → Download ZIP**），完整解压到一个文件夹。
+2. 双击 **Install.bat**。首次安装需要联网，请等待完成。
+3. 安装后自动启动，桌面会生成 **QingLu** 快捷方式。
+
+安装器自动检测 64 位 Python 3.14；若缺少，会从 python.org 下载最新的 3.14 正式补丁版本、校验发布者签名后安装。工具安装到当前用户的 `%LOCALAPPDATA%\Programs\QingLu`，使用独立环境，不需要手动输入命令。不修改系统 PATH 或麦克风权限。当前支持 Windows x64；不支持 ARM64 安装。
+
+已有安装重复运行会更新程序和依赖，保留 `settings.json`。更新前请先保存录制并退出应用。若安装报错，请保留窗口中的错误信息。
+
+### 手动运行
 
 需要 Windows 10 2004 / Windows 11、64 位 Python（本机验证为 Python 3.14）。其他系统不支持。Windows 必须允许桌面应用访问麦克风才能录入人声。
 
